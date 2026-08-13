@@ -18,14 +18,6 @@ A simple and responsive temperature converter website built using HTML, CSS and 
 - CSS3
 - JavaScript
 
-## Project Structure
-
-Temperature-Converter/
-│
-├── index.html
-├── style.css
-└── script.js
-
 ## How It Works
 
 1. Enter a temperature value.
