@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+      <h1>Temperature Converter</h1>
+      <p class="heading-text">Convert between Celsius, Fahrenheit & Kelvin <span>instantly ⚡</span></p>
+    
+      <div class="input-box">
+     <label>Enter Temperature</label>
+    
+     <div class="input-row">
+        <input type="text" id="temperature" placeholder="Enter value" >
+         <select id="unit">
+                    <option value="celsius">°C</option>
+                    <option value="fahrenheit">°F</option>
+                    <option value="kelvin">K</option>
+         </select>
+            </div>
+            <p id="error"></p>
+            <button id="convertBtn">Convert</button>
+        </div>
+
+        <div class="results">
+
+        <div class="card celsius-card">
+            
+            <div class="card-top">
+                <h2>Celsius</h2>
+                <span>°C</span>
+                </div>
+
+                <div class="value">
+                <strong id="celsius">-</strong>
+                <small>°C</small>
+                </div>
+            </div>
+       
+            <div class="card fahrenheit-card">
+
+                <div class="card-top">
+                    <h2>Fahrenheit</h2>
+                    <span>°F</span>
+                </div>
+
+                <div class="value">
+                    <strong id="fahrenheit">-</strong>
+                    <small>°F</small>
+                </div>
+                </div>
+        
+                <div class="card kelvin-card">
+
+                <div class="card-top">
+                    <h2>Kelvin</h2>
+                    <span>K</span>
+                </div>
+
+                <div class="value">
+                    <strong id="kelvin">-</strong>
+                    <small>K</small>
+                </div>
+        </div>
+        </div>
+
+        <div class="tip">
+            
+            <div class="bulb">💡</div>
+         <p>Tip: Enter any value and select the unit to get <span>quick</span> conversions!</p>
+         </div>
+         </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
